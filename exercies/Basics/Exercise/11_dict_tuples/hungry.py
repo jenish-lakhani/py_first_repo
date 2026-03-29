@@ -4,5 +4,6 @@ if hungry == "yes":
     print("eat pizza")
     print("eat burger")
     print("eat cake")
+    print("eat frice")
 else:
     print("do your homework")
