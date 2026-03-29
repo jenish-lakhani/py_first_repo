@@ -67,3 +67,10 @@ for i in range(n):
 
 text = "Python"
 print(text[0] + text[-1])
+
+x = [1, 2, 3]
+print(x * 2)
+
+lis = [5, 1, 2, 2, 3, 4, 3, 2, 6]
+d = dict.fromkeys(lis)  # remove duplicate but maintain   the order
+print(list(d))
