@@ -1,6 +1,6 @@
 import pandas as pd
 
-df_movies = pd.read_excel(
-    "C:/Python_AI/py_first_ripo/panda/chapter_3_assets/3_read_write_to_excel/movies_db.xlsx"
+df = pd.read_excel(
+    "C:/Python_AI/py_first_ripo/panda/chapter_3_assets/4_handling_missing_data_fillna_dropna_interpolate/weather_data.xls"
 )
-print(df_movies)
+print(df)
