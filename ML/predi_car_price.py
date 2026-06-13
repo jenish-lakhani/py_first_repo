@@ -31,3 +31,5 @@ print(pred1)
 
 pred2 = model.predict(pd.DataFrame([[86000, 7, 0, 1]]))
 print(pred2)
+
+print(model.score(x, y))
